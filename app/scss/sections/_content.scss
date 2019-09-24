@@ -16,6 +16,10 @@
 	font-size: 20px;
 	line-height: 24px;
 	color: $header_bg;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	max-width: 150px;
 }
 .main-content__center {
 	font-size: 16px;
