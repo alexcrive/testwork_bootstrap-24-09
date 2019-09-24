@@ -1,0 +1,139 @@
+body {
+  background-color: #7000e0 !important;
+}
+
+.navbar-brand {
+  font-family: 'Helvetica';
+  font-size: 32px !important;
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: #D1F7F4 !important;
+}
+
+.btn, .btn-secondary {
+  font-family: 'Helvetica';
+  color: #7e00ff !important;
+  font-size: 24px !important;
+  background-color: white !important;
+}
+
+.dropdown-item {
+  color: #7e00ff !important;
+  font-size: 18px !important;
+  background-color: white !important;
+}
+
+.dropdown-item:hover {
+  background-color: #eaeaea !important;
+}
+
+.navbar-toggler {
+  background-color: white !important;
+  padding: 12px 14px 10px 12px !important;
+}
+
+.navbar-toggler-icon {
+  width: 28px !important;
+  height: 24px !important;
+  background-image: url("../img/iconfinder-icon.svg") !important;
+  color: #7e00ff;
+}
+
+.nav {
+  padding-top: 40px;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: white;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 230px;
+}
+
+.nav-link:hover {
+  color: #D1F7F4 !important;
+}
+
+.list-group-item {
+  display: flex !important;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 16px !important;
+  -webkit-border-radius: 0 !important;
+  border-radius: 0 !important;
+}
+
+.list-group-item:nth-child(odd) {
+  background-color: white !important;
+}
+
+.list-group-item:nth-child(even) {
+  background-color: #f6f6f6 !important;
+}
+
+.list-group-item--pr {
+  display: flex !important;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 16px !important;
+  padding-right: 5px !important;
+  padding-left: 10px !important;
+  -webkit-border-radius: 0 !important;
+  border-radius: 0 !important;
+}
+
+.list-group-item--pr:first-child {
+  padding-right: 29px !important;
+}
+
+.list-group-item--pr:nth-child(odd) {
+  background-color: white;
+}
+
+.list-group-item--pr:nth-child(even) {
+  background-color: #f6f6f6;
+}
+
+.btn-primary {
+  position: relative;
+  display: flex !important;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 7px 14px 5px 12px !important;
+  border: 1px solid white !important;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+  border: 1px solid white !important;
+  background-color: transparent !important;
+  color: white !important;
+}
+
+.main-content__right .list-group-item {
+  margin-bottom: 2px !important;
+}
+
+.main-content__right .list-group-item:last-child {
+  margin-bottom: 0 !important;
+}
+
+#main-content__right .list-group-item {
+  padding: 0 !important;
+}
+
+#main-content__right .list-group-item:nth-child(odd) {
+  background-color: white !important;
+}
+
+#main-content__right .list-group-item:nth-child(even) {
+  background-color: #f6f6f6 !important;
+}
+
+.dropdown-menu {
+  padding: 0 !important;
+  margin: 0 !important;
+}

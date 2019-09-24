@@ -1,0 +1,30 @@
+.navbar-default {
+  background-color: $header_bg;
+}
+.scroll-menu {
+  height: 30vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+	  width: 5px;
+	}
+	&::-webkit-scrollbar-track {
+	  background: white;
+	}
+	&::-webkit-scrollbar-thumb {
+	  background: $header_bg;
+	  &:hover {
+	  	background: lighten($header_bg,10%);
+	  }
+	}
+	@media(min-width: 1024px) {
+		height: 80vh;
+	}
+}
+
+.menu-list-style {
+    z-index: 1;		
+	-webkit-box-shadow: 4px 0px 4px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 4px 0px 4px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 4px 0px 4px 0px rgba(0, 0, 0, 0.2);
+}

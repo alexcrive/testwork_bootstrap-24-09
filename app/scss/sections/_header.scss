@@ -1,0 +1,15 @@
+.header .container{
+  background-color: $header_bg !important;
+}
+.navbar {
+	padding-top: 20px !important;
+	padding-bottom: 20px !important;
+	@media(min-width: 1024px) {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+		height: 99px;
+	}
+}
+.navbar-brand {
+	font-size: 32px;
+}
